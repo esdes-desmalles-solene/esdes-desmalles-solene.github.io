@@ -1,1 +1,26 @@
-hello
+section img {
+    width : 100%;
+}
+
+section button {
+    background-image: "ball.png";
+    width: 10%;
+}
+
+#dragon-ball {
+    width : 75px;
+    cursor: pointer;
+}
+
+#dragon-ball:hover {
+    opacity : 0.7;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+*{
+    font-family: roboto, sans-serif;
+}
