@@ -1,0 +1,47 @@
+@font-face{
+    font-family: "Police1";
+    src: url('polices/CormorantGaramond-Medium.ttf');
+}
+
+body{
+   margin: 0;
+   font-family: "Police1";
+}
+
+.image3, .image2, .image1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image3{
+    background-image: url("img/image3.jpg");
+    min-height: 100vh;
+}
+
+.fondmur{
+    background-image: url("img/fondmur.jpg");
+    min-height: 400px;
+}
+
+.image1{
+    background-image: url("img/image1.jpg");
+    min-height: 400px;
+}
+
+header{
+    background-color: #FFFFFF;
+}
+
+.image4{
+    max-height: 10px
+}
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
