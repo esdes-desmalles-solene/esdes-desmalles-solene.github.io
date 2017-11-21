@@ -1,6 +1,8 @@
 @font-face{
     font-family: "Police1";
     src: url('polices/CormorantGaramond-Medium.ttf');
+    font-family: "Police2";
+    src: url('polices/LeagueScript.ttf');
 }
 
 body{
@@ -8,15 +10,16 @@ body{
    font-family: "Police1";
 }
 
-.image3, .image2, .image1{
+.flowers, .pcrose, .caferose{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.image3{
-    background-image: url("img/image3.jpg");
+.flowers{
+    background-image: url("img/flowers.jpg");
+    height : 400px;
     min-height: 100vh;
 }
 
@@ -30,7 +33,7 @@ body{
     min-height: 400px;
 }
 
-.image1{
+.pcrose{
     background-image: url("img/image1.jpg");
     min-height: 400px;
 }
@@ -39,7 +42,7 @@ header{
     background-color: #FFFFFF;
 }
 
-.image4{
+.caferose{
     max-height: 10px
 }
 
@@ -49,4 +52,16 @@ header{
 
 .w3-hover-opacity {
     cursor: pointer;
+}
+
+.presentationtexte{
+    font-family: "Police2";
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
