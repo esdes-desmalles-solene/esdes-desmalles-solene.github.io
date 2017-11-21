@@ -20,6 +20,11 @@ body{
     min-height: 100vh;
 }
 
+.formations, .articles{
+    width: 100%;
+    
+}
+
 .fondmur{
     background-image: url("img/fondmur.jpg");
     min-height: 400px;
